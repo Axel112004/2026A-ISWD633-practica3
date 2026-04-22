@@ -25,7 +25,7 @@ docker run -d --name nginx-bind -P -v "C:\nginx\html:/usr/share/nginx/html" ngin
 Al ingresar al servidor de nginx no se muestra la página por defecto, ya que la carpeta del contenedor fue reemplazada por la carpeta del host mediante bind mount. Como la carpeta html está vacía, no se muestra contenido o puede aparecer un error.
 
 ### ¿Qué pasa con el archivo index.html del contenedor?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+El archivo index.html del contenedor deja de utilizarse, porque la ruta fue sobrescrita por la carpeta del host, por lo que nginx ya no usa su contenido interno.
 
 ### Ir a https://html5up.net/ y descargar un template gratuito, descomprirlo dentro de tu computador en la carpeta html
 ### ¿Qué sucede al ingresar al servidor de nginx?
