@@ -11,7 +11,7 @@ En el esquema del ejercicio carpeta del contenedor (a) es /var/lib/mysql
 Ruta carpeta host: .../ejercicio3/db
 
 ### ¿Qué contiene la carpeta db del host?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+La carpeta db del host contiene los archivos de datos de MySQL, es decir, donde se guardan las bases de datos y la información interna para que persista.
 
 ### Crear un contenedor con la imagen mysql:8  en la red net-wp, configurar las variables de entorno: MYSQL_ROOT_PASSWORD, MYSQL_DATABASE, MYSQL_USER y MYSQL_PASSWORD
 # COMPLETAR CON EL COMANDO
