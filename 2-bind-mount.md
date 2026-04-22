@@ -29,7 +29,10 @@ El archivo index.html del contenedor deja de utilizarse, porque la ruta fue sobr
 
 ### Ir a https://html5up.net/ y descargar un template gratuito, descomprirlo dentro de tu computador en la carpeta html
 ### ¿Qué sucede al ingresar al servidor de nginx?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+
+<img width="1902" height="1078" alt="image" src="https://github.com/user-attachments/assets/5ee29c4c-af48-4d88-a5c9-7e0dd16661d1" />
+
+Al ingresar nuevamente al servidor de nginx, se muestra el template web cargado desde la carpeta del host, ya que nginx está utilizando directamente los archivos del bind mount.
 
 ### Eliminar el contenedor
 # COMPLETAR CON EL COMANDO
