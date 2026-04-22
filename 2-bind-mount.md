@@ -40,6 +40,6 @@ Al ingresar nuevamente al servidor de nginx, se muestra el template web cargado 
 docker rm -f nginx-bind
 
 ### ¿Qué sucede al crear nuevamente un contenedor montado al directorio definidos anteriormente?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+Al crear nuevamente el contenedor, el template sigue apareciendo porque los archivos no estaban guardados dentro del contenedor sino en la carpeta del host. Como el bind mount vuelve a montar la misma carpeta, nginx sigue mostrando el mismo contenido.
 
 
