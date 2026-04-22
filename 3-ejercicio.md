@@ -33,5 +33,7 @@ Ruta carpeta host: .../ejercicio3/www
 
 ### Eliminar el contenedor y crearlo nuevamente, ¿qué ha sucedido?
 
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA 
+Al eliminar y volver a crear el contenedor, la información se mantiene. Esto sucede porque los datos de WordPress y MySQL están almacenados en carpetas del host mediante volúmenes (db y www), por lo que no se pierden al eliminar el contenedor.
+<img width="1907" height="1077" alt="image" src="https://github.com/user-attachments/assets/c239773f-7c1b-4ae9-8786-cbfcba7c3a94" />
+
 
