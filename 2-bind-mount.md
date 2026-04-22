@@ -37,6 +37,8 @@ Al ingresar nuevamente al servidor de nginx, se muestra el template web cargado 
 ### Eliminar el contenedor
 # COMPLETAR CON EL COMANDO
 
+docker rm -f nginx-bind
+
 ### ¿Qué sucede al crear nuevamente un contenedor montado al directorio definidos anteriormente?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 
